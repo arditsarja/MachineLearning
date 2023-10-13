@@ -8,8 +8,9 @@ module com.example.machinelearning {
   requires net.synedra.validatorfx;
   requires org.kordamp.ikonli.javafx;
   requires org.kordamp.bootstrapfx.core;
-  requires eu.hansolo.tilesfx;
+//  requires eu.hansolo.tilesfx;
   requires com.almasb.fxgl.all;
+  requires weka.stable;
 
   opens com.example.machinelearning to javafx.fxml;
   exports com.example.machinelearning;
